@@ -1,0 +1,63 @@
+** This is a comment
+
+** string
+varbl greeting -> "hello"
+varbl adj -> "beautiful"
+varbl noun -> "world."
+varbl name -> "James"
+varbl surname -> "Bond"
+varbl sentence -> " {greeting} {adj} {noun} " 
+
+** number 
+varbl a -> 3
+varbl b -> 4
+varbl integer -> 4
+varbl float -> -3.8
+
+** printing
+write "{sentence}"   
+write "hey mr {name} {surname} ."
+write "{greeting} dear user."
+write "{float} and {integer}"
+
+** simple calculations
+calc a + b
+calc a + 5
+calc 1 + b
+calc 2 + 3
+calc 3 * -4
+calc 8 / 2
+calc 9 - 7
+calc 2 ** 3
+
+** complex assignment
+varbl sum -> 3 + 4
+varbl mult -> 5 * -3
+varbl res1 -> a + b
+varbl res2 -> a * b
+varbl res3 -> b / 2
+varbl pow1 -> 3 ** a
+varbl pow2 -> a ** b
+
+** if elif else
+varbl a -> 7
+varbl b -> 10
+varbl c -> 1
+
+begin cond
+if (b > a) [
+write "{b} > {a}"
+]
+elif (b < a) [
+write "{b} < {a}"
+]
+else [
+write "{b} = {a}"
+]
+end cond
+
+begin loop
+a a < b  a + c
+write "{a}"
+
+end loop
