@@ -1,0 +1,8 @@
+** changing the variables (before a=3 b=4) (after a=4, b=3)
+varbl a -> 3
+varbl b -> 4
+write "{a} {b}"
+varbl temp -> a
+varbl a -> b
+varbl b -> temp
+write "{a} {b}"
