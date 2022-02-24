@@ -1,0 +1,11 @@
+varbl a -> 3
+varbl b -> 9
+
+** This is a loop
+
+begin loop
+a a < b  a + 1
+write "{a}"
+
+end loop
+
