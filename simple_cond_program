@@ -1,0 +1,16 @@
+** if elif else
+varbl a -> 7
+varbl b -> 10
+
+begin cond
+if (b > a) [
+write "{b} > {a}"
+]
+elif (b < a) [
+write "{b} < {a}"
+]
+else [
+write "{b} = {a}"
+]
+end cond
+
