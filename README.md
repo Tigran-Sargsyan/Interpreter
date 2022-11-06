@@ -19,3 +19,5 @@ The language gives the possibilities to.
 > Check for conditions (if,else).
 
 > Use loops for executing a block of code multiple times.
+
+For the further use of the language check the documentation in documentation.md.
