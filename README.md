@@ -6,16 +6,16 @@ which would execute the code written in that language.
 
 The language gives the possibilities to.
 
-. Declare variables and store values in them.
+> Declare variables and store values in them.
 
-. Do simple logical comparisons.
+> Do simple logical comparisons.
 
-. Do simple arithmetical calculations.
+> Do simple arithmetical calculations.
 
-. Make comments.
+> Make comments.
 
-. Print the results of the program.
+> Print the results of the program.
 
-. Check for conditions (if,else).
+> Check for conditions (if,else).
 
-. Use loops for executing a block of code multiple times.
+> Use loops for executing a block of code multiple times.
